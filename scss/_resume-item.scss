@@ -25,3 +25,12 @@ section.resume-section {
     padding-bottom: 3rem !important;
   }
 }
+
+.project-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.project-content-items {
+  width: 300px;
+}

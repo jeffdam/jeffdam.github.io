@@ -175,6 +175,23 @@ section.resume-section .resume-item .resume-date {
   }
 }
 
+.project-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.project-content-items {
+  width: 300px;
+}
+
 .bg-primary {
   background-color: #708090 !important;
 }
