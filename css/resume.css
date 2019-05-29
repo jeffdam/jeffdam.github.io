@@ -188,6 +188,15 @@ section.resume-section .resume-item .resume-date {
   justify-content: space-between;
 }
 
+.project-content img {
+  border: 2px solid #708090;
+  border-radius: 1px;
+  width: 300px;
+  height: 200px;
+  background-size: 100%;
+  margin-bottom: 15px;
+}
+
 .project-content-items {
   width: 300px;
 }
