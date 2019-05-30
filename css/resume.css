@@ -186,6 +186,8 @@ section.resume-section .resume-item .resume-date {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .project-content img {
@@ -198,6 +200,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .project-content-items {
+  margin-bottom: 20px;
   width: 300px;
 }
 
