@@ -183,11 +183,12 @@ section.resume-section .resume-item .resume-date {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  max-width: 950px;
 }
 
 .project-content img {
@@ -200,7 +201,7 @@ section.resume-section .resume-item .resume-date {
 
 .project-content-items {
   margin-bottom: 20px;
-  margin-right: 50px;
+  margin-right: 5px;
   max-width: 450px;
 }
 

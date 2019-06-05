@@ -29,8 +29,9 @@ section.resume-section {
 .project-content {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   flex-wrap: wrap;
+  max-width: 950px;
 
   img {
     border: 2px solid $primary;
@@ -43,7 +44,7 @@ section.resume-section {
 
 .project-content-items {
   margin-bottom: 20px;
-  margin-right: 50px;
+  margin-right: 5px;
   max-width: 450px;
 }
 
