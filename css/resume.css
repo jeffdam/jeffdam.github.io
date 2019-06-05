@@ -204,6 +204,18 @@ section.resume-section .resume-item .resume-date {
   width: 300px;
 }
 
+.resume {
+  background: #495057;
+  color: white;
+  height: 56px;
+  padding: 0px 20px;
+  border-radius: 20px;
+}
+
+.resume:hover {
+  background-color: #708090;
+}
+
 .bg-primary {
   background-color: #708090 !important;
 }

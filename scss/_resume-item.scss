@@ -31,18 +31,30 @@ section.resume-section {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-}
 
-.project-content img {
-  border: 2px solid $primary;
-  border-radius: 1px;
-  width: 300px;
-  height: 200px;
-  background-size: 100%;
-  margin-bottom: 15px;
+  img {
+    border: 2px solid $primary;
+    border-radius: 1px;
+    width: 300px;
+    height: 200px;
+    background-size: 100%;
+    margin-bottom: 15px;
+  }
 }
 
 .project-content-items {
   margin-bottom: 20px;
   width: 300px;
+}
+
+.resume {
+  background: $gray-700;
+  color: white;
+  height: 56px;
+  padding: 0px 20px;
+  border-radius: 20px;
+
+  &:hover {
+  background-color: $primary;
+  }
 }
