@@ -183,9 +183,9 @@ section.resume-section .resume-item .resume-date {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -193,15 +193,15 @@ section.resume-section .resume-item .resume-date {
 .project-content img {
   border: 2px solid #708090;
   border-radius: 1px;
-  width: 300px;
-  height: 200px;
+  width: 100%;
   background-size: 100%;
   margin-bottom: 15px;
 }
 
 .project-content-items {
   margin-bottom: 20px;
-  width: 300px;
+  margin-right: 50px;
+  max-width: 450px;
 }
 
 .resume {
