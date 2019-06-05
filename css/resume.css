@@ -217,6 +217,11 @@ section.resume-section .resume-item .resume-date {
   background-color: #708090;
 }
 
+.icon {
+  height: 80px;
+  margin-bottom: 27px;
+}
+
 .bg-primary {
   background-color: #708090 !important;
 }
