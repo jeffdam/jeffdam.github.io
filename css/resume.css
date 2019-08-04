@@ -205,6 +205,14 @@ section.resume-section .resume-item .resume-date {
   max-width: 450px;
 }
 
+.project-content-items i {
+  font-size: 25pt;
+}
+
+.project-content-items a:hover {
+  text-decoration: none;
+}
+
 .resume {
   background: #495057;
   color: white;

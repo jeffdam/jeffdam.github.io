@@ -46,6 +46,14 @@ section.resume-section {
   margin-bottom: 20px;
   margin-right: 5px;
   max-width: 450px;
+
+  i {
+    font-size: 25pt;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
 }
 
 .resume {
