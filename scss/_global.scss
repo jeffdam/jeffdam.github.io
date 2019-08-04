@@ -3,7 +3,7 @@
 body {
   @include body-font;
   padding-top: 54px;
-  color: $gray-600;
+  color: $primary;
 }
 @media (min-width: 992px) {
   body {
@@ -65,7 +65,7 @@ p.lead {
       margin-right: 0;
     }
     &:hover {
-      background-color: $primary;
+      opacity: 0.75;
     }
   }
 }
@@ -74,7 +74,7 @@ p.lead {
   font-size: 5rem;
   .list-inline-item i {
     &:hover {
-      color: $primary;
+      opacity: 0.75;
     }
   }
 }

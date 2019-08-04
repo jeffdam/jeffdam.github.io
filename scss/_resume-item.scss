@@ -50,9 +50,10 @@ section.resume-section {
   i {
     font-size: 25pt;
   }
-  
+
   a:hover {
     text-decoration: none;
+    opacity: 0.5;
   }
 }
 
@@ -64,7 +65,7 @@ section.resume-section {
   border-radius: 20px;
 
   &:hover {
-  background-color: $primary;
+    opacity: 0.75;
   }
 }
 

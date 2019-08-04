@@ -7,7 +7,7 @@
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
-  color: #868e96;
+  color: #495057;
 }
 
 @media (min-width: 992px) {
@@ -72,7 +72,7 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #708090;
+  opacity: 0.75;
 }
 
 .dev-icons {
@@ -80,7 +80,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #708090;
+  opacity: 0.75;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -90,7 +90,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #9ba6b1;
+  outline-color: #6c7681;
 }
 
 @media (min-width: 992px) {
@@ -192,7 +192,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .project-content img {
-  border: 2px solid #708090;
+  border: 2px solid #495057;
   border-radius: 1px;
   width: 100%;
   background-size: 100%;
@@ -211,6 +211,7 @@ section.resume-section .resume-item .resume-date {
 
 .project-content-items a:hover {
   text-decoration: none;
+  opacity: 0.5;
 }
 
 .resume {
@@ -222,7 +223,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .resume:hover {
-  background-color: #708090;
+  opacity: 0.75;
 }
 
 .icon {
@@ -231,17 +232,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #708090 !important;
+  background-color: #495057 !important;
 }
 
 .text-primary {
-  color: #708090 !important;
+  color: #495057 !important;
 }
 
 a {
-  color: #708090;
+  color: #495057;
 }
 
 a:hover, a:focus, a:active {
-  color: #4e5a65;
+  color: #262a2d;
 }
