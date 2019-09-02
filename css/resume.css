@@ -79,9 +79,9 @@ p.lead {
   font-size: 5rem;
 }
 
-.dev-icons .list-inline-item i:hover {
+/* .dev-icons .list-inline-item i:hover {
   opacity: 0.75;
-}
+} */
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
